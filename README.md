@@ -99,6 +99,16 @@ Role Name: `jigar-EC2-SSM-Role-Autodelete`
       - Create a rule with:
           - Schedule: rate(1 day)
           - Target: your Lambda function
+       
+---
+## 📸 Screenshots – EC2 Backup and Cleanup Automation
+
+| Description                    | Screenshot |
+|-------------------------------|------------|
+| EC2 Instance - Cron Job Output | ![](Screenshots/EC2%20Instance_Cron%20Job%20Output.png) |
+| IAM Role Attached to EC2       | ![](Screenshots/IAM%20Role%20Attached%20to%20EC2.png)    |
+| Lambda Function                | ![](Screenshots/Lambda%20Function.png)                   |
+| S3 Bucket                      | ![](Screenshots/S3%20Bucket.png)                         |
 
 ---
 ## Notes
